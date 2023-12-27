@@ -9,6 +9,7 @@ body {
     font-family: "Raleway", sans-serif;
     color: #4d5ae5;
 }
+
 .title{
     font-size: 18px;
     font-weight: 700;
@@ -20,7 +21,7 @@ body {
 .title span{
     color: #2E2F42;
 }
-.title-list-item{
+.title-list-link-subtitle{
     color: #2E2F42;
     font-size: 16px;
     font-weight: 500;
