@@ -52,7 +52,7 @@ body {
 /* mine-item */
 
 .mine-item{
-    background: var(--NAVY-BLUE, #2E2F42);}
+    background: var(--NAVY-BLUE, #2E2F42); }
 
 .maine-item-text{
     color: var(--WHITE, #FFF);
@@ -63,7 +63,7 @@ line-height: 1.07;
 letter-spacing: 0.02em;
 }
 .mine-item-btn{
-    background-color: #4D5AE5
+    background: #4D5AE5;
     color: var(--WHITE, #FFF);
     font-family: inherit;
 font-size: 16px;
