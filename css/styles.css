@@ -18,14 +18,18 @@ body {
 }
 
 .title span{
-    color: var(--NAVY-BLUE, #2E2F42);;
+    color: #2E2F42;
 }
 .title-list-item{
-    color: var(--NAVY-BLUE, #2E2F42);
+    color: #2E2F42;
     font-size: 16px;
     font-weight: 500;
     line-height: 1.5; 
     letter-spacing: 0.02em;
+}
+.title-list-item a:hover,
+.title-list-item a:focus {
+    color: #404bbf;
 }
 .contacts-item a:hover,
 .contacts-item a:focus {
