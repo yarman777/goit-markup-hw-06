@@ -21,8 +21,8 @@ body {
 .title span{
     color: #2E2F42;
 }
-.title-list-link{
-    color: #2E2F42;
+.title-list-link a{
+    color:#2E2F42;
     font-size: 16px;
     font-weight: 500;
     line-height: 1.5; 
