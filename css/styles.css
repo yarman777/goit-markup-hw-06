@@ -2,20 +2,23 @@
 
 body {
     font-family: 'Roboto', sans-serif;
-    color: #2E2F42;
+    color: #434455;
+    background-color: #FFFFFF;
+}
+.logo{
+    font-family: "Raleway", sans-serif;
+    color: #4d5ae5;
 }
 .title{
-    color: var(--NAVY-BLUE, #2E2F42);
-font-family: Raleway;
-font-size: 18px;
-font-weight: 700;
-line-height: 1.17; 
-letter-spacing: 0.03em;
-text-transform: uppercase;
-background: var(--WHITE, #FFF);
+    font-size: 18px;
+    font-weight: 700;
+    line-height: 1.17;
+    letter-spacing: 0.03em;
+    text-transform: uppercase;
 }
+
 .title span{
-    color:#4D5AE5;
+    color: var(--NAVY-BLUE, #2E2F42);;
 }
 .title-list-item{
     color: var(--NAVY-BLUE, #2E2F42);
@@ -24,19 +27,22 @@ background: var(--WHITE, #FFF);
     line-height: 1.5; 
     letter-spacing: 0.02em;
 }
-.Contacts-item a:hover,
-.Contacts-item a:focus {
-    color: aqua;
+.contacts-item a:hover,
+.contacts-item a:focus {
+    color: #404bbf;
 }
 
 
-.Contacts{
+.contacts{
     color: var(--SLATE, #434455);
     font-size: 16px;
     font-style: normal;
     font-weight: 400;
     line-height: 1.5; 
     letter-spacing: 0.02em;
+}
+.contacts-item-link{
+    color:#434455
 }
 
 /* mine-item */
@@ -53,6 +59,7 @@ line-height: 1.07;
 letter-spacing: 0.02em;
 }
 .mine-item-btn{
+    background-color: #4D5AE5
     color: var(--WHITE, #FFF);
     font-family: inherit;
 font-size: 16px;
@@ -60,6 +67,10 @@ font-weight: 500;
 line-height: 1.5;
 letter-spacing: 0.04em;
 cursor: pointer;
+}
+.mine-item-btn:hover,
+.mine-item-btn:focus{
+    color: #404BBF;
 }
 
 /* about-us */
@@ -101,6 +112,7 @@ letter-spacing: 0.02em;
 text-transform: capitalize;
 }
 .our-team-list {
+    background-color: #FFFFFF
 }
 .our-team-item {
 }
@@ -166,14 +178,18 @@ letter-spacing: 0.02em;
 .footer span{
     color: #4D5AE5;
 }
-.footer-title {
-    color: var(--CLOUD, #F4F4FD);
-font-family: Raleway;
+.footer-logo {
+    color: var(--CLOUD,  #4d5ae5);
+font-family: "Raleway", sans-serif;
 font-size: 18px;
 font-weight: 700;
 line-height: 1.17;
 letter-spacing: 0.03em;
 text-transform: uppercase;
+}
+.footer span{
+    color: #f4f4fd;
+   
 }
 .footer-text{
     color: var(--CLOUD, #F4F4FD);
