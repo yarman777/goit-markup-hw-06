@@ -21,12 +21,16 @@ body {
 .title span{
     color: #2E2F42;
 }
-.title-list-link-subtitle{
+.title-list-link{
     color: #2E2F42;
     font-size: 16px;
     font-weight: 500;
     line-height: 1.5; 
     letter-spacing: 0.02em;
+}
+.title-list-link-subtitle:hover,
+.title-list-link-subtitle:focus{
+    color: #404bbf;   
 }
 .title-list-item a:hover,
 .title-list-item a:focus {
@@ -75,7 +79,7 @@ cursor: pointer;
 }
 .mine-item-btn:hover,
 .mine-item-btn:focus{
-    color: #404BBF;
+    background-color: #404BBF;
 }
 
 
@@ -183,11 +187,9 @@ letter-spacing: 0.02em;
 .footer {
     background: var(--NAVY-BLUE, #2E2F42);
 }
-.footer span{
-    color: #4D5AE5;
-}
+
 .footer-logo {
-    color: var(--CLOUD,  #4d5ae5);
+    color:#4d5ae5;
 font-family: "Raleway", sans-serif;
 font-size: 18px;
 font-weight: 700;
@@ -203,6 +205,6 @@ font-weight: 400;
 line-height: 1.5;
 letter-spacing: 0.02em;
 }
-.footer-logo-span-studio{
-    color: #f4f4fd;   
+.studio {
+    color: #F4F4FD;   
 }
