@@ -1,13 +1,27 @@
-/* header */
+
 
 body {
     font-family: 'Roboto', sans-serif;
     color: #434455;
     background-color: #FFFFFF;
 }
+.container{
+    max-width: 1158px;
+}
+
+/* header */
+
 .logo{
     font-family: "Raleway", sans-serif;
     color: #4d5ae5;
+    display: flex;
+    align-items: center;
+    margin-left: 156px;
+    
+}
+.navigation-content{
+    display: flex;
+    flex-grow: 1;
 }
 
 .title{
@@ -16,7 +30,19 @@ body {
     line-height: 1.17;
     letter-spacing: 0.03em;
     text-transform: uppercase;
+    
 }
+
+.header-container{
+    display: flex;
+    align-items: center;
+    
+}
+
+.title-list{
+    display: flex;
+    gap: 40px; 
+    }
 
 .title span{
     color: #2E2F42;
@@ -49,10 +75,23 @@ body {
     font-weight: 400;
     line-height: 1.5; 
     letter-spacing: 0.02em;
+   
 }
+.contacts-item{
+    
+}
+
+.contacts-content{
+    display: flex;
+    margin-left: auto;
+    gap: 40px;
+
+}
+
 .contacts-item-link{
     color:#434455
 }
+
 
 /* mine-item */
 
