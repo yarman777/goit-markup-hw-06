@@ -6,7 +6,8 @@ body {
     background-color: #FFFFFF;
 }
 .container{
-    max-width: 1158px;
+    max-width: 1440px;
+    padding: 0;
 }
 
 /* header */
@@ -16,12 +17,12 @@ body {
     color: #4d5ae5;
     display: flex;
     align-items: center;
-    margin-left: 156px;
-    
+    margin-right: 76px;
+      
 }
 .navigation-content{
     display: flex;
-    flex-grow: 1;
+   margin-right: 332px;
 }
 
 .title{
@@ -30,18 +31,26 @@ body {
     line-height: 1.17;
     letter-spacing: 0.03em;
     text-transform: uppercase;
+    padding: 0;
+    margin: 0;
     
 }
 
 .header-container{
     display: flex;
     align-items: center;
+    justify-content:;
+    padding: 0;
+    margin: auto;
+    width: calc(100% - (156px * 2));
+
     
 }
 
 .title-list{
     display: flex;
     gap: 40px; 
+    margin-right: auto;
     }
 
 .title span{
@@ -85,6 +94,7 @@ body {
     display: flex;
     margin-left: auto;
     gap: 40px;
+    flex-shrink: 0;
 
 }
 
@@ -96,7 +106,13 @@ body {
 /* mine-item */
 
 .mine-item{
-    background: var(--NAVY-BLUE, #2E2F42); }
+    height: 600px;
+    background: var(--NAVY-BLUE, #2E2F42);
+    display: flex;
+    flex-direction: column;
+align-items: center; 
+justify-content: center;
+}
 
 .maine-item-text{
     color: var(--WHITE, #FFF);
