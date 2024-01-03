@@ -152,6 +152,7 @@ body {
   cursor: pointer;
   width: 169;
   height: 56;
+  min-width: 169px;
   padding: 16px 32px;
   display: block;
   border: none;
