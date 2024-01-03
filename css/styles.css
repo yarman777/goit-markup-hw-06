@@ -120,6 +120,10 @@ body {
 
 /* mine-item */
 
+.section-container{
+    padding: 188px 0
+}
+
 .mine-item{
     height: 600px;
     width: 100%;
