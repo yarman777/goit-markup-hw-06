@@ -157,10 +157,12 @@ body {
 
 /* about-us */
 
+.visually-hidden {
+}
 .about-us {
   background: #fff;
   display: flex;
-  margin-bottom: 120px;
+  padding: 120px 0;
 }
 .about-us-list {
   background: #fff;
@@ -169,7 +171,7 @@ body {
   margin: 0 auto;
 }
 .about-us-list-item {
-  width: 264px;
+  width: calc((100% - 72px) / 4);
   height: auto;
 }
 .about-us-title {
