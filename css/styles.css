@@ -160,6 +160,7 @@ body {
 .visually-hidden {
   position: absolute;
   overflow: hidden;
+  display: none;
   clip: rect(0 0 0 0);
   height: 1px;
   width: 1px;
@@ -202,8 +203,9 @@ body {
 
 .our-team {
   background: var(--CLOUD, #f4f4fd);
-  padding-top: 120px;
+  padding: 120px 0;
   height: 732px;
+  margin-bottom: 72px;
 }
 .our-team-title {
   color: var(--NAVY-BLUE, #2e2f42);
@@ -220,15 +222,18 @@ body {
   background-color: #ffffff;
   display: flex;
   gap: 24px;
-  margin-top: 72px;
   background-color: inherit;
   margin: 72 auto 0;
   justify-content: center;
 }
+.name-position {
+  padding: 32px 0;
+}
 .our-team-item {
   background-color: #ffffff;
-  width: auto;
+  width: calc((100% - 72px) / 4);
   height: auto;
+  border-radius: 0px 0px 4px 4px;
 }
 .our-team-photos {
   background-color: #ffffff;
