@@ -205,7 +205,6 @@ body {
   background: var(--CLOUD, #f4f4fd);
   padding: 120px 0;
   height: 732px;
-  margin-bottom: 72px;
 }
 .our-team-title {
   color: var(--NAVY-BLUE, #2e2f42);
@@ -216,7 +215,7 @@ body {
   letter-spacing: 0.02em;
   text-transform: capitalize;
   margin-left: 639px;
-  margin: 0 auto;
+  margin-bottom: 72px;
 }
 .our-team-list {
   background-color: #ffffff;
