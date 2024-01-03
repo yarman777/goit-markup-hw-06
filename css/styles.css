@@ -120,8 +120,12 @@ body {
 
 /* mine-item */
 
-.section-container{
+.mine-section{
     padding: 188px 0
+}
+
+.section-container{
+    
 }
 
 .mine-item{
