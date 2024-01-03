@@ -110,13 +110,6 @@ body {
 
 /* mine-item */
 
-.mine-section {
-  padding: 188px 0;
-}
-
-.section-container {
-}
-
 .mine-item {
   height: 600px;
   width: 100%;
@@ -150,7 +143,6 @@ body {
   line-height: 1.5;
   letter-spacing: 0.04em;
   cursor: pointer;
-  width: 169;
   height: 56;
   min-width: 169px;
   padding: 16px 32px;
