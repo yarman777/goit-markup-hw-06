@@ -324,7 +324,6 @@ body {
   background: var(--NAVY-BLUE, #2e2f42);
   height: 312px;
   padding: 100px 0;
-  display: inline-block;
 }
 
 .footer-section {
@@ -339,6 +338,7 @@ body {
   letter-spacing: 0.03em;
   text-transform: uppercase;
   margin-bottom: 16px;
+  display: inline-block;
 }
 
 .footer-text {
