@@ -324,15 +324,10 @@ body {
   background: var(--NAVY-BLUE, #2e2f42);
   height: 312px;
   padding: 100px 0;
-}
-
-footer a {
   display: inline-block;
 }
 
 .footer-section {
-  display: flex;
-  flex-direction: column;
 }
 
 .footer-logo {
