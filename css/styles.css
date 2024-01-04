@@ -325,6 +325,11 @@ body {
   height: 312px;
   padding: 100px 0;
 }
+
+footer a {
+  display: inline-block;
+}
+
 .footer-section {
   display: flex;
   flex-direction: column;
