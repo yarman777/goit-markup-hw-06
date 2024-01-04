@@ -329,7 +329,7 @@ body {
   display: flex;
   flex-direction: column;
 }
-.footer-section a {
+.footer-logo .studio {
   display: inline-block;
 }
 
