@@ -325,7 +325,6 @@ body {
 }
 
 .footer-logo {
-  display: inline-block;
   color: #4d5ae5;
   font-family: "Raleway", sans-serif;
   font-size: 18px;
@@ -336,7 +335,9 @@ body {
   margin-bottom: 16px;
   padding-top: 100px;
 }
-
+.footer-logo a {
+  display: inline-block;
+}
 .footer-text {
   color: var(--CLOUD, #f4f4fd);
   font-size: 16px;
@@ -345,6 +346,9 @@ body {
   letter-spacing: 0.02em;
   width: 264px;
   height: 72px;
+}
+.container .footer {
+  padding: 100px 0;
 }
 .studio {
   color: #f4f4fd;
