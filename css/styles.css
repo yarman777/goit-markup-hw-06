@@ -329,9 +329,6 @@ body {
   display: flex;
   flex-direction: column;
 }
-.footer-logo .studio {
-  display: inline-block;
-}
 
 .footer-logo {
   color: #4d5ae5;
