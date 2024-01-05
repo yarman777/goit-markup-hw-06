@@ -55,6 +55,7 @@ body {
   display: flex;
   justify-content: space-between;
   padding-top: 0 15px;
+  align-items: center;
 }
 
 .title-list {
