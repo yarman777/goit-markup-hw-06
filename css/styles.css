@@ -14,13 +14,17 @@ body {
   font-family: "Roboto", sans-serif;
   color: #434455;
   background-color: #ffffff;
-  width: 1158px;
+  width: 1440px;
 }
 
 .container {
-  width: 1158px;
-  margin: 0 auto;
-  padding: 0 15px;
+  width: 1128px;
+  padding-left: 15px;
+  padding-right: 15px;
+  margin-left: auto;
+  margin-right: auto;
+  margin-right: 141px;
+  margin-left: 141px;
 }
 
 /* header */
@@ -43,14 +47,16 @@ body {
   line-height: 1.17;
   letter-spacing: 0.03em;
   text-transform: uppercase;
-
   border-bottom: 1px solid #e7e9fc;
 }
 .header-container {
   width: 1158px;
+  height: 72px;
   margin-left: auto;
   display: flex;
   justify-content: space-between;
+  padding-top: 24px;
+  padding-bottom: 24px;
 }
 
 .title-list {
@@ -98,7 +104,6 @@ body {
   display: flex;
   margin-left: auto;
   gap: 40px;
-  padding: 24px 0;
   justify-content: end;
   align-items: center;
 }
@@ -113,6 +118,8 @@ body {
   display: flex;
   flex-direction: column;
   align-items: center;
+  padding-top: 188px;
+  padding-bottom: 188px;
 }
 
 .mine-item {
@@ -123,7 +130,6 @@ body {
   flex-direction: column;
   align-items: center;
   justify-content: center;
-  padding: 188px 0;
 }
 
 .maine-item-text {
@@ -149,6 +155,7 @@ body {
   cursor: pointer;
   height: 56;
   min-width: 169px;
+  box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.15);
 
   padding: 16px 32px;
   display: block;
@@ -184,7 +191,6 @@ body {
   background: #fff;
   display: flex;
   gap: 24px;
-  margin: 0 auto;
 }
 .about-us-list-item {
   width: calc((100% - 72px) / 4);
@@ -217,7 +223,6 @@ body {
   display: flex;
   flex-direction: column;
   align-items: center;
-  margin-bottom: 72px;
 }
 .our-team-title {
   color: var(--NAVY-BLUE, #2e2f42);
@@ -230,11 +235,9 @@ body {
   margin-bottom: 72px;
 }
 .our-team-list {
-  background-color: #ffffff;
   display: flex;
   gap: 24px;
   background-color: inherit;
-  margin: 72 auto 0;
   justify-content: center;
 }
 .name-position {
@@ -245,6 +248,9 @@ body {
   width: calc((100% - 72px) / 4);
   height: auto;
   border-radius: 0px 0px 4px 4px;
+  box-shadow: 0px 2px 1px 0px rgba(46, 47, 66, 0.08),
+    0px 1px 1px 0px rgba(46, 47, 66, 0.16),
+    0px 1px 6px 0px rgba(46, 47, 66, 0.08);
 }
 .our-team-photos {
   background-color: #ffffff;
