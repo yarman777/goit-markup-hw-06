@@ -19,8 +19,7 @@ body {
 
 .container {
   width: 1128px;
-  padding-left: 15px;
-  padding-right: 15px;
+  padding: 0 15px;
   margin-left: auto;
   margin-right: auto;
   margin-right: 141px;
@@ -117,7 +116,6 @@ body {
   display: flex;
   flex-direction: column;
   align-items: center;
-  padding: 188px 0;
 }
 
 .mine-item {
@@ -128,6 +126,7 @@ body {
   flex-direction: column;
   align-items: center;
   justify-content: center;
+  padding: 188px 0;
 }
 
 .maine-item-text {
