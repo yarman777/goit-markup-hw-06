@@ -56,6 +56,8 @@ body {
   justify-content: space-between;
   padding-top: 0 15px;
   align-items: center;
+  box-shadow: 0px 2px 1px rgba(46, 47, 66, 0.08),
+    0px 1px 1px rgba(46, 47, 66, 0.16), 0px 1px 6px rgba(46, 47, 66, 0.08);
 }
 
 .title-list {
@@ -123,7 +125,7 @@ body {
 
 .mine-item {
   height: 600px;
-  width: 100%;
+  max-width: 1440px;
   background-repeat: no-repeat;
   background-position: center;
   background-size: cover;
@@ -131,7 +133,7 @@ body {
       rgba(46, 47, 66, 0.7),
       rgba(46, 47, 66, 0.7)
     ),
-    url(../images/people-office\ 1\ .jpg);
+    url(../images/people-ofice.jpg);
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -163,7 +165,9 @@ body {
   height: 56;
   min-width: 169px;
   box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.15);
-
+  transition-property: background-color;
+  transition-duration: 250ms;
+  transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
   padding: 16px 32px;
   display: block;
   border: none;
@@ -305,10 +309,9 @@ body {
   gap: 24px;
 }
 .team-list-soc-item {
-  border-radius: 50%;
   width: 40px;
   height: 40px;
-  background-color: #4d5ae5;
+
   display: flex;
   justify-content: center;
   align-items: center;
@@ -317,18 +320,25 @@ body {
 .team-list-soc-icon {
   width: 16px;
   height: 16px;
+  fill: #f4f4fd;
 }
 
 .team-list-soc-link {
   width: 100%;
   height: 100%;
+  border-radius: 50%;
+  background-color: #4d5ae5;
   display: flex;
   justify-content: center;
   align-items: center;
 }
-.our-team-item:hover .team-list-soc-item {
+.our-team-item:hover .team-list-soc-link {
   background-color: #404bbf;
 }
+.our-team-item:focus .team-list-soc-link {
+  background-color: #404bbf;
+}
+
 /* OUR PORTFOLIO */
 
 .our-portfolio-section {
@@ -390,6 +400,7 @@ body {
 
 .footer-section {
   display: flex;
+  align-items: baseline;
 }
 
 .footer-logo {
@@ -444,27 +455,31 @@ body {
   display: flex;
   justify-content: center;
   align-items: center;
+  fill: #f4f4fd;
 }
 
 .footer-soc-list-item {
-  border-radius: 50%;
   width: 40px;
   height: 40px;
   flex-shrink: 0;
-  background-color: #4d5ae5;
   display: flex;
   justify-content: center;
   align-items: center;
 }
 
-.footer-soc-list-item:hover.footer-soc-list-item {
+.footer-soc-link:hover.footer-soc-link {
   background-color: #31d0aa;
 }
 
 .footer-soc-link {
   width: 100%;
   height: 100%;
+  border-radius: 50%;
+  background-color: #4d5ae5;
   display: flex;
   justify-content: center;
   align-items: center;
+  transition-property: background-color;
+  transition-duration: 250ms;
+  transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
 }
