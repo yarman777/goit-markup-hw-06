@@ -47,6 +47,8 @@ body {
   letter-spacing: 0.03em;
   text-transform: uppercase;
   border-bottom: 1px solid #e7e9fc;
+  box-shadow: 0px 2px 1px rgba(46, 47, 66, 0.08),
+    0px 1px 1px rgba(46, 47, 66, 0.16), 0px 1px 6px rgba(46, 47, 66, 0.08);
 }
 .header-container {
   width: 1158px;
@@ -56,8 +58,6 @@ body {
   justify-content: space-between;
   padding-top: 0 15px;
   align-items: center;
-  box-shadow: 0px 2px 1px rgba(46, 47, 66, 0.08),
-    0px 1px 1px rgba(46, 47, 66, 0.16), 0px 1px 6px rgba(46, 47, 66, 0.08);
 }
 
 .title-list {
@@ -77,6 +77,23 @@ body {
   letter-spacing: 0.02em;
   padding: 24px 0;
 }
+
+.current {
+  position: relative;
+  color: #404bbf;
+}
+
+.current::after {
+  content: "";
+  position: absolute;
+  left: 0;
+  bottom: -1px;
+  background-color: #404bbf;
+  border-radius: 2px;
+  height: 2px;
+  width: 100%;
+}
+
 .title-list-link-subtitle:hover,
 .title-list-link-subtitle:focus {
   color: #404bbf;
@@ -311,6 +328,9 @@ body {
 .team-list-soc-item {
   width: 40px;
   height: 40px;
+  transition-property: background-color;
+  transition-duration: 250ms;
+  transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
 
   display: flex;
   justify-content: center;
@@ -468,6 +488,10 @@ body {
 }
 
 .footer-soc-link:hover.footer-soc-link {
+  background-color: #31d0aa;
+}
+
+.footer-soc-link:focus.footer-soc-link {
   background-color: #31d0aa;
 }
 
