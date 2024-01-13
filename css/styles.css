@@ -76,11 +76,11 @@ body {
   line-height: 1.5;
   letter-spacing: 0.02em;
   padding: 24px 0;
-  position: relative;
 }
 
 .current {
   color: #404bbf;
+  position: relative;
 }
 
 .current::after {
@@ -337,10 +337,6 @@ body {
 .team-list-soc-item {
   width: 40px;
   height: 40px;
-  transition-property: background-color;
-  transition-duration: 250ms;
-  transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
-
   display: flex;
   justify-content: center;
   align-items: center;
@@ -360,6 +356,9 @@ body {
   display: flex;
   justify-content: center;
   align-items: center;
+  transition-property: background-color;
+  transition-duration: 250ms;
+  transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
 }
 .our-team-item:hover .team-list-soc-link {
   background-color: #404bbf;
