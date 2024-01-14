@@ -76,16 +76,17 @@ body {
   line-height: 1.5;
   letter-spacing: 0.02em;
   padding: 24px 0;
+  position: relative;
 }
 
 .current {
   color: #404bbf;
-  position: relative;
 }
 
 .current::after {
   content: "";
   position: absolute;
+  display: block;
   left: 0;
   bottom: -1px;
   background-color: #404bbf;
@@ -360,10 +361,10 @@ body {
   transition-duration: 250ms;
   transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
 }
-.our-team-item:hover .team-list-soc-link {
+.team-list-soc-link:hover {
   background-color: #404bbf;
 }
-.our-team-item:focus .team-list-soc-link {
+.team-list-soc-link:focus {
   background-color: #404bbf;
 }
 
