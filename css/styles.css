@@ -392,11 +392,11 @@ body {
   flex-wrap: wrap;
   gap: 48px 24px;
   justify-content: center;
+  transition-duration: 250ms;
+  transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
 }
 .our-portfolio-item {
   width: calc((100% - 48px) / 3);
-  transition-duration: 250ms;
-  transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
 }
 .our-portfolio-item:hover {
   box-shadow: 0px 1px 6px rgba(46, 47, 66, 0.08),
@@ -434,7 +434,6 @@ body {
   position: relative;
   overflow: hidden;
 }
-
 .cover-text {
   color: var(--CLOUD, #f4f4fd);
   font-size: 16px;
@@ -446,10 +445,8 @@ body {
   display: flex;
   top: 0;
   align-items: center;
-  width: 100%;
-  height: 100%;
   flex-shrink: 0;
-  padding: 40px 32px 164px 32px;
+  padding: 40px 32px;
   background: var(--IRIS, #4d5ae5);
   transform: translateY(100%);
   transition-duration: 250ms;
