@@ -34,6 +34,7 @@ body {
   display: flex;
   align-items: center;
   margin-right: 76px;
+  text-transform: uppercase;
 }
 .navigation-content {
   display: flex;
@@ -45,7 +46,6 @@ body {
   font-weight: 700;
   line-height: 1.17;
   letter-spacing: 0.03em;
-  text-transform: uppercase;
   border-bottom: 1px solid #e7e9fc;
   box-shadow: 0px 2px 1px rgba(46, 47, 66, 0.08),
     0px 1px 1px rgba(46, 47, 66, 0.16), 0px 1px 6px rgba(46, 47, 66, 0.08);
@@ -71,16 +71,17 @@ body {
   color: #2e2f42;
 }
 .title-list-link {
+  padding: 24px 0;
   color: #2e2f42;
   font-size: 16px;
   font-weight: 500;
   line-height: 1.5;
   letter-spacing: 0.02em;
+  position: relative;
 }
 
 .current {
   color: #404bbf;
-  position: relative;
 }
 
 .current::after {
@@ -138,6 +139,9 @@ body {
 
 .contacts-item-link {
   color: #434455;
+  font-size: 16px;
+  line-height: 1.5;
+  letter-spacing: 0.02em;
 }
 
 /* mine-item */
