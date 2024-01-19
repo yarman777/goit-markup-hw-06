@@ -636,7 +636,7 @@ body {
   position: fixed;
   top: 0;
   left: 0;
-  width: 100%;
+  width: 1440px;
   height: 100%;
   background: var(--NAVY-BLUE-modal, rgba(46, 47, 66, 0.4));
   visibility: hidden;
@@ -729,7 +729,7 @@ body {
   letter-spacing: 0.04em;
   margin-bottom: 4px;
 }
-.modal-lable-wrap {
+.modal-lable-input-wrap {
   margin-bottom: 8px;
 }
 .modal-input {

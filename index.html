@@ -506,7 +506,7 @@
         </button>
         <p class="modal-text">Leave your contacts and we will call you back</p>
         <form class="modal-form">
-          <div class="modal-lable-wrap">
+          <div class="modal-lable-input-wrap">
             <label for="user-name" class="modal-lable">Name</label>
 
             <div class="modal-input-wrap">
@@ -522,45 +522,48 @@
               </svg>
             </div>
           </div>
-          <div class="modal-lable-wrap">
+          <div class="modal-lable-input-wrap">
             <label for="phone-nomber" class="modal-lable">Phone</label>
+
+            <div class="modal-input-wrap">
+              <input
+                type="tel"
+                name="phone-nomber"
+                id="phone-nomber"
+                placeholder=""
+                class="modal-input"
+              />
+              <svg class="modal-input-icon" width="18" height="24">
+                <use href="./images/icons.svg#icon-phone-black"></use>
+              </svg>
+            </div>
           </div>
-          <div class="modal-input-wrap">
-            <input
-              type="tel"
-              name="phone-nomber"
-              id="phone-nomber"
-              placeholder=""
-              class="modal-input"
-            />
-            <svg class="modal-input-icon" width="18" height="24">
-              <use href="./images/icons.svg#icon-phone-black"></use>
-            </svg>
-          </div>
-          <div class="modal-lable-wrap">
+          <div class="modal-lable-input-wrap">
             <label for="e-mail" class="modal-lable">Email</label>
+
+            <div class="modal-input-wrap">
+              <input
+                type="email"
+                name="e-mail"
+                id="e-mail"
+                placeholder=""
+                class="modal-input"
+              />
+              <svg class="modal-input-icon" width="18" height="24">
+                <use href="./images/icons.svg#icon-email-black"></use>
+              </svg>
+            </div>
           </div>
-          <div class="modal-input-wrap">
-            <input
-              type="email"
-              name="e-mail"
-              id="e-mail"
-              placeholder=""
-              class="modal-input"
-            />
-            <svg class="modal-input-icon" width="18" height="24">
-              <use href="./images/icons.svg#icon-email-black"></use>
-            </svg>
-          </div>
-          <div class="modal-lable-wrap">
+          <div class="modal-lable-input-wrap">
             <label for="user-comment" class="modal-lable">Comment</label>
+
+            <textarea
+              name="comment"
+              id="user-comment"
+              class="modal-comment"
+              placeholder="Text input"
+            ></textarea>
           </div>
-          <textarea
-            name="comment"
-            id="user-comment"
-            class="modal-comment"
-            placeholder="Text input"
-          ></textarea>
           <div class="modal-policy">
             <input
               type="checkbox"
