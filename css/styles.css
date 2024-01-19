@@ -784,10 +784,11 @@ body {
   margin-bottom: 16px;
 }
 
-.modal-comment:focus::placeholder {
+.modal-comment-text:focus::placeholder {
   color: #4d5ae5;
 }
-.modal-comment:focus {
+
+.modal-comment-text:focus {
   border-color: #4d5ae5;
 }
 .modal-comment::placeholder {
@@ -822,7 +823,7 @@ body {
   text-decoration: underline;
   color: var(--IRIS, #4d5ae5);
 }
-.modal-lable-policy span {
+.privacy-span {
   width: 16px;
   height: 16px;
   border-radius: 2px;
@@ -849,7 +850,7 @@ body {
   line-height: 1.5;
   letter-spacing: 0.04em;
   padding: 16px 32px;
-  width: 169px;
+  min-width: 169px;
   height: 56px;
   border-radius: 4px;
   background-color: var(--IRIS, #4d5ae5);
