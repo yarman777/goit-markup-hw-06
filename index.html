@@ -476,26 +476,26 @@
           </ul>
         </div>
         <div class="footer-subscribe">
-          <div class="input-label">
-            <label for="email-footer" class="footer-subscribe-label"
-              >Subscribe
-            </label>
-            <input
-              type="email"
-              name="E-mail"
-              placeholder="E-mail"
-              class="footer-input"
-              id="email-footer"
-            />
+          <div class="Subscribe-text-wrap">
+            <p class="subscribe-text">Subscribe</p>
           </div>
-          <div class="btn-icon-wrap">
+          <form class="subsribe-form">
+            <label for="email-footer" class="footer-subscribe-label">
+              <input
+                type="email"
+                name="E-mail"
+                placeholder="E-mail"
+                class="footer-input"
+                id="email-footer"
+            /></label>
             <button type="submit" class="footer-subscribe-btn">
               Subscribe
               <svg class="footer-subscribe-btn-icon" width="24" height="24">
                 <use href="./images/icons.svg#icon-Frame-3"></use>
               </svg>
             </button>
-          </div>
+          </form>
+          <div class="btn-icon-wrap"></div>
         </div>
       </div>
     </footer>
@@ -508,7 +508,9 @@
         </button>
         <p class="modal-text">Leave your contacts and we will call you back</p>
         <form class="modal-form">
-          <label for="your-name" class="modal-lable">Name</label>
+          <div class="modal-lable-wrap">
+            <label for="your-name" class="modal-lable">Name</label>
+          </div>
           <div class="modal-input-wrap">
             <input
               type="text"
@@ -521,7 +523,9 @@
               <use href="./images/icons.svg#icon-person-black"></use>
             </svg>
           </div>
-          <label for="phone-nomber" class="modal-lable">Phone</label>
+          <div class="modal-lable-wrap">
+            <label for="phone-nomber" class="modal-lable">Phone</label>
+          </div>
           <div class="modal-input-wrap">
             <input
               type="tel"
@@ -534,7 +538,9 @@
               <use href="./images/icons.svg#icon-phone-black"></use>
             </svg>
           </div>
-          <label for="E-mail" class="modal-lable">Email</label>
+          <div class="modal-lable-wrap">
+            <label for="E-mail" class="modal-lable">Email</label>
+          </div>
           <div class="modal-input-wrap">
             <input
               type="email"
@@ -547,22 +553,24 @@
               <use href="./images/icons.svg#icon-email-black"></use>
             </svg>
           </div>
-          <label for="comment" class="modal-lable">Comment</label>
+          <div class="modal-lable-wrap">
+            <label for="user-comment" class="modal-lable">Comment</label>
+          </div>
           <textarea
             name="comment"
-            id="comment"
+            id="user-comment"
             class="modal-comment"
             placeholder="Text input"
           ></textarea>
           <div class="modal-policy">
             <input
               type="checkbox"
-              name="policy"
-              id="policy"
+              name="user-policy"
+              id="user-policy"
               value="true"
               class="modal-input-policy visually-hidden"
             />
-            <label for="policy" class="modal-lable-policy"
+            <label for="user-policy" class="modal-lable-policy"
               ><span
                 ><svg class="check-icon" width="10" height="8">
                   <use href="./images/icons.svg#icon-vector"></use></svg></span
