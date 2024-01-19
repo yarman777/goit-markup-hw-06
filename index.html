@@ -554,13 +554,13 @@
               </svg>
             </div>
           </div>
-          <div class="modal-lable-input-wrap">
+          <div class="modal-comment">
             <label for="user-comment" class="modal-lable">Comment</label>
 
             <textarea
-              name="comment"
+              name="user-comment"
               id="user-comment"
-              class="modal-comment"
+              class="modal-comment-text"
               placeholder="Text input"
             ></textarea>
           </div>
@@ -573,16 +573,16 @@
               class="modal-input-policy visually-hidden"
             />
             <label for="user-privacy" class="modal-lable-policy"
-              ><span
+              ><span class="privacy-span"
                 ><svg class="check-icon" width="10" height="8">
                   <use href="./images/icons.svg#icon-vector"></use></svg></span
-              >I accept the terms and conditions the &nbsp;
-              <a href="">Privacy Policy</a></label
+              >I accept the terms and conditions the
+              <a href="">Privacy Policy</a class="privacy-link"></label
             >
           </div>
-          <div class="modal-btn">
+          
             <button type="submit" class="modal-btn-send">Send</button>
-          </div>
+          
         </form>
       </div>
     </div>

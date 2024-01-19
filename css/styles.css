@@ -763,7 +763,7 @@ body {
   transform: translateY(-50%);
   transition: fill 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
-.modal-comment {
+.modal-comment-text {
   background-color: transparent;
   border-radius: 4px;
   border: 1px solid rgba(46, 47, 66, 0.4);
@@ -771,7 +771,6 @@ body {
   height: 120px;
   padding: 8px 16px;
   outline: transparent;
-  margin-bottom: 16px;
   color: rgba(46, 47, 66, 0.4);
   font-size: 12px;
   font-weight: 400;
@@ -779,6 +778,10 @@ body {
   letter-spacing: 0.04em;
   resize: none;
   transition: border-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
+}
+
+.modal-comment {
+  margin-bottom: 16px;
 }
 
 .modal-comment:focus::placeholder {
@@ -837,6 +840,8 @@ body {
 }
 
 .modal-btn-send {
+  margin: auto;
+  display: block;
   color: var(--WHITE, #fff);
   text-align: center;
   font-size: 16px;
@@ -849,8 +854,6 @@ body {
   border-radius: 4px;
   background-color: var(--IRIS, #4d5ae5);
   box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.15);
-  justify-content: center;
-  display: block;
   cursor: pointer;
   transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
   border: none;
@@ -858,9 +861,4 @@ body {
 .modal-btn-send:hover,
 .modal-btn-send:focus {
   background-color: var(--IRIS, #404bbf);
-}
-.modal-btn {
-  width: 100%;
-  display: flex;
-  justify-content: center;
 }
