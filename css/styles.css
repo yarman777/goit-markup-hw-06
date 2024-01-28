@@ -557,6 +557,27 @@ body {
   background-color: #404bbf;
 }
 
+@media screen and (min-width: 768px) {
+  .our-team-list {
+    flex-direction: row;
+    flex-wrap: wrap;
+  }
+  .our-team-item {
+    /* width: calc((100% - 24px) / 2); */
+    width: 264px;
+  }
+  .item-picture {
+  }
+  .item-picture-src {
+  }
+}
+
+@media screen and (min-width: 1158px) {
+  .our-team-item {
+    width: calc((100% - 72px) / 4);
+  }
+}
+
 /* OUR PORTFOLIO */
 
 .our-portfolio-section {
