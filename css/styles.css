@@ -24,13 +24,13 @@ body {
 }
 @media screen and (min-width: 768px) {
   .container {
-    max-width: 768px;
+    max-width: 736px;
   }
 }
 
 @media screen and (min-width: 1158px) {
   .container {
-    max-width: 1158px;
+    max-width: 1128px;
     padding: 0 15px;
   }
 }
@@ -227,7 +227,7 @@ body {
 
 .mine-item {
   height: 600px;
-  max-width: 1440px;
+  /* max-width: 1440px; */
   background-repeat: no-repeat;
   background-position: center;
   background-size: cover;
@@ -235,12 +235,24 @@ body {
       rgba(46, 47, 66, 0.7),
       rgba(46, 47, 66, 0.7)
     ),
-    url(../images/people-ofice.jpg);
+    url(../images/Dark-bg-mob-min.jpg);
   display: flex;
   flex-direction: column;
   align-items: center;
   justify-content: center;
   padding: 72px 52px;
+}
+
+@media screen and (min-device-pixel-ratio: 2),
+  (min-resolution: 2dppx),
+  (min-resolution: 192dpi) {
+  .mine-item {
+    background-image: linear-gradient(
+        rgba(46, 47, 66, 0.7),
+        rgba(46, 47, 66, 0.7)
+      ),
+      url(../images/Dark-bg-mob-2x-min.jpg);
+  }
 }
 
 .maine-item-text {
@@ -280,6 +292,56 @@ body {
   background-color: #404bbf;
 }
 
+@media screen and (min-width: 768px) {
+  .mine-item {
+    background-image: linear-gradient(
+        rgba(46, 47, 66, 0.7),
+        rgba(46, 47, 66, 0.7)
+      ),
+      url(../images/Dark-bg-tab-min.jpg);
+  }
+  @media screen and (min-device-pixel-ratio: 2),
+    (min-resolution: 2dppx),
+    (min-resolution: 192dpi) {
+    .mine-item {
+      background-image: linear-gradient(
+          rgba(46, 47, 66, 0.7),
+          rgba(46, 47, 66, 0.7)
+        ),
+        url(../images/Dark-bg-tab-2x-min.jpg);
+    }
+  }
+  .maine-item-text {
+    max-width: 496px;
+    height: 120px;
+    font-size: 56px;
+    font-weight: 700;
+    line-height: 1.07;
+    letter-spacing: 0.02em;
+  }
+}
+
+@media screen and (min-width: 1158px) {
+  .mine-item {
+    background-image: linear-gradient(
+        rgba(46, 47, 66, 0.7),
+        rgba(46, 47, 66, 0.7)
+      ),
+      url(../images/people-ofice.jpg);
+  }
+  @media screen and (min-device-pixel-ratio: 2),
+    (min-resolution: 2dppx),
+    (min-resolution: 192dpi) {
+    .mine-item {
+      background-image: linear-gradient(
+          rgba(46, 47, 66, 0.7),
+          rgba(46, 47, 66, 0.7)
+        ),
+        url(../images/people-office-2x-min.jpg);
+    }
+  }
+}
+
 /* about-us */
 
 .visually-hidden {
@@ -298,12 +360,14 @@ body {
 .about-us {
   background: #fff;
   display: flex;
-  padding: 120px 0;
+  padding-top: 96px;
+  padding-bottom: 24px;
 }
 
 .about-us-list {
   background: #fff;
-  display: flex;
+  /* display: flex; */
+  /* display: inline-block; */
   gap: 24px;
 }
 
@@ -316,36 +380,81 @@ body {
   display: flex;
   justify-content: center;
   align-items: center;
-  margin-bottom: 8px;
+  /* margin-bottom: 8px; */
   padding: 24px 100px;
+  margin: 0 auto;
+  display: none;
 }
 
 .about-us-list-item {
-  width: calc((100% - 72px) / 4);
+  /* width: calc((100% - 72px) / 4); */
   height: auto;
 }
 .about-us-title {
+  text-align: center;
   color: var(--NAVY-BLUE, #2e2f42);
-  font-size: 20px;
-  font-weight: 500;
-  line-height: 1.2;
+  font-size: 36px;
+  font-weight: 700;
+  line-height: 1.11;
   letter-spacing: 0.02em;
-  margin-bottom: 8px;
+  margin-top: 8px;
+  text-transform: capitalize;
 }
 .about-us-text {
   color: var(--SLATE, #434455);
   font-size: 16px;
-  font-weight: 400;
+  font-weight: 500;
   line-height: 1.5;
   letter-spacing: 0.02em;
+  margin-bottom: 72px;
+}
+
+@media screen and (min-width: 768px) {
+  .about-us-list {
+    display: flex;
+    flex-wrap: wrap;
+  }
+  .about-us-title {
+    text-align: left;
+  }
+  .about-us-list-item {
+    gap: 24px;
+    flex-wrap: wrap;
+    width: calc((100% - 24px) / 2);
+  }
+  .box-icon {
+    display: none;
+  }
+}
+
+@media screen and (min-width: 1158px) {
+  .box-icon {
+    display: flex;
+  }
+  .about-us-list-item {
+    width: calc((100% - 72px) / 4);
+  }
+  .about-us-title {
+    font-size: 20px;
+    font-weight: 500;
+    line-height: 1.2;
+    letter-spacing: 0.02em;
+    margin-top: 8px;
+  }
+  .about-us-text {
+    font-weight: 400;
+    width: 264px;
+  }
 }
 
 /* OUR TEAM */
 
 .our-team-section {
-  padding: 120px 0;
+  width: 100%;
+  padding-top: 96px;
+  padding-bottom: 24px;
   background: var(--CLOUD, #f4f4fd);
-  height: 732px;
+  /* height: 732px; */
 }
 .our-team {
   display: flex;
@@ -365,6 +474,7 @@ body {
 .our-team-list {
   display: flex;
   gap: 24px;
+  flex-direction: column;
   background-color: inherit;
   justify-content: center;
 }
@@ -373,7 +483,9 @@ body {
 }
 .our-team-item {
   background-color: #ffffff;
-  width: calc((100% - 72px) / 4);
+  /* width: calc((100% - 72px) / 4); */
+  width: 264px;
+  margin-bottom: 72px;
   height: auto;
   border-radius: 0px 0px 4px 4px;
   box-shadow: 0px 2px 1px 0px rgba(46, 47, 66, 0.08),
@@ -425,8 +537,10 @@ body {
 }
 
 .team-list-soc-link {
-  width: 100%;
-  height: 100%;
+  /* width: 100%;
+  height: 100%; */
+  width: 40px;
+  height: 40px;
   border-radius: 50%;
   background-color: #4d5ae5;
   display: flex;
