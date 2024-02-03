@@ -63,6 +63,87 @@
             <use href="/images/icons.svg#icon-heroicons-solid_menu"></use>
           </svg>
         </button>
+
+        <div class="mob-menu-container is-open">
+          <div class="menu-btn-close">
+            <button type="button" class="mob-menu-close-btn">
+              <svg class="menu-btn-close-icon" width="8" height="8">
+                <use href="./images/icons.svg#icon-close-black"></use>
+              </svg>
+            </button>
+          </div>
+          <div class="menu-nav-container">
+            <nav class="menu-navigation-content">
+              <ul class="menu-title-list">
+                <li class="menu-title-list-link">
+                  <a href="./index.html" class="menu-list-link-subtitle current"
+                    >Studio</a
+                  >
+                </li>
+                <li class="menu-title-list-link">
+                  <a href="" class="menu-list-link-subtitle">Portfolio</a>
+                </li>
+                <li class="menu-title-list-link">
+                  <a href="" class="menu-list-link-subtitle">Contacts</a>
+                </li>
+              </ul>
+            </nav>
+          </div>
+          <div class="menu-contacts-container">
+            <address class="menu-contacts" id="Contacts">
+              <ul class="menu-contacts-content">
+                <li class="menu-contacts-item">
+                  <a
+                    class="menu-post-item-link"
+                    href="mailto:info@devstudio.com"
+                    target="_blank"
+                    >info@devstudio.com
+                  </a>
+                </li>
+                <li class="menu-contacts-item">
+                  <a
+                    class="menu-tel-item-link"
+                    href="tel:+110001111111"
+                    target="_blank"
+                    >+11 (000) 111-11-11
+                  </a>
+                </li>
+              </ul>
+            </address>
+          </div>
+          <div clas="menu-soc-list-container">
+            <ul class="menu-list-soc">
+              <li class="menu-list-soc-item">
+                <a class="menu-list-soc-link" href="">
+                  <svg width="24" height="24" class="menu-list-soc-icon">
+                    <use href="./images/icons.svg#icon-instagram-2-1"></use>
+                  </svg>
+                </a>
+              </li>
+              <li class="menu-list-soc-item">
+                <a class="menu-list-soc-link" href="">
+                  <svg width="24" height="24" class="menu-list-soc-icon">
+                    <use href="./images/icons.svg#icon-twitter-1"></use>
+                  </svg>
+                </a>
+              </li>
+              <li class="menu-list-soc-item">
+                <a class="menu-list-soc-link" href="">
+                  <svg width="24" height="24" class="menu-list-soc-icon">
+                    <use href="./images/icons.svg#icon-facebook-1"></use>
+                  </svg>
+                </a>
+              </li>
+              <li class="menu-list-soc-item">
+                <a class="menu-list-soc-link" href="">
+                  <svg width="24" height="24" class="menu-list-soc-icon">
+                    <use href="./images/icons.svg#icon-linkedin-1"></use>
+                  </svg>
+                </a>
+              </li>
+            </ul>
+          </div>
+        </div>
       </div>
     </header>
 
@@ -726,7 +807,7 @@
         </div>
       </div>
     </footer>
-    <!-- <div class="backdrop">
+    <div class="backdrop">
       <div class="modal">
         <button type="button" class="modal-close-btn">
           <svg class="modal-btn-close-icon" width="8" height="8">
@@ -804,15 +885,18 @@
             <label for="user-privacy" class="modal-lable-policy"
               ><span class="privacy-span"
                 ><svg class="check-icon" width="10" height="8">
-                  <use href="./images/icons.svg#icon-vector"></use></svg></span
-              >I accept the terms and conditions of the
-              <a class="privacy-link" href="">Privacy Policy</a></label
-            >
+                  <use href="./images/icons.svg#icon-vector"></use></svg
+              ></span>
+              <div class="for-mob">
+                I accept the terms and conditions of the
+                <a class="privacy-link" href="">Privacy Policy</a>
+              </div>
+            </label>
           </div>
 
           <button type="submit" class="modal-btn-send">Send</button>
         </form>
       </div>
-    </div> -->
+    </div>
   </body>
 </html>
